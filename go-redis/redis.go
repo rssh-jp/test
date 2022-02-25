@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
-	"github.com/go-redis/redis/v8"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/go-redis/redis/v8"
 )
 
 type collector struct {
